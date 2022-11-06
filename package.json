@@ -1,0 +1,23 @@
+{
+  "name": "l_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "start:inspect": "node --inspect=0.0.0.0:9229 app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.8",
+    "controllers": "^0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17",
+    "nodemon": "^2.0.20",
+    "services": "^0.0.3"
+  }
+}
